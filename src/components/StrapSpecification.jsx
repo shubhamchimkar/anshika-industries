@@ -30,7 +30,7 @@ const itemVariants = {
 
 const StrapSpecification = () => {
   return (
-    <section className="bg-green-700 text-white py-20" id="specifications">
+    <section className="bg-blue-700 text-white py-20" id="specifications">
       <motion.div
         className="max-w-7xl mx-auto px-6 text-center"
         initial="hidden"
@@ -39,7 +39,7 @@ const StrapSpecification = () => {
         variants={containerVariants}
       >
         <motion.span
-          className="inline-block bg-green-900 text-white text-sm font-semibold px-4 py-1 rounded-full mb-6"
+          className="inline-block bg-blue-900 text-white text-lg font-semibold px-4 py-1 rounded-full mb-6"
           variants={itemVariants}
         >
           BEST QUALITY PP STRAP

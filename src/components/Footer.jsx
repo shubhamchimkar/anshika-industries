@@ -23,7 +23,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold text-yellow-500">Anshika Industries</h3>
             <p className="mt-2">
               BOPP tape, strapping Patti rolls,<br />
-              All types of packaging materials available.
+              All types of Packaging Materials & Machineries Sales available.
             </p>
           </div>
 

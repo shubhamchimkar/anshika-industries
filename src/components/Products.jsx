@@ -18,9 +18,9 @@ const Products = () => {
 
   const products = {
     BOPP: [
-      { title: 'Transparent', description: 'Length:40m–100m | Sizes: 1/2–5 inch', src: tape1 },
-      { title: 'Multi-Colour', description: 'Length:40m–100m | Sizes: 1/2–5 inch', src: tape2 },
-      { title: 'Custom Print', description: 'Length:40m–100m | Sizes: 1/2–5 inch', src: tape3 },
+      { title: 'Transparent', description: 'Length: 40m–100m | Sizes: 1/2–5 inch', src: tape1 },
+      { title: 'Multi-Colour', description: 'Length: 40m–100m | Sizes: 1/2–5 inch', src: tape2 },
+      { title: 'Custom Print', description: 'Length: 40m–100m | Sizes: 1/2–5 inch', src: tape3 },
     ],
     STRIP: [
       { title: 'Stripping Roll', description: 'Virgin | Ghatha Patti | 800–2000m | 8mm–12mm', src: stripe1 },
@@ -38,7 +38,7 @@ const Products = () => {
   ];
 
   return (
-    <section id="products" className="py-16 px-4 max-w-7xl mx-auto">
+    <section id="products" className="py-16 px-4 max-w-7xl mx-auto font-mont">
       <motion.h2
         className="text-4xl font-bold text-center text-gray-900 mb-10"
         initial={{ opacity: 0, y: -20 }}
@@ -58,8 +58,8 @@ const Products = () => {
             whileTap={{ scale: 0.95 }}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
               activeTab === tab.key
-                ? 'bg-green-700 text-white shadow'
-                : 'bg-green-200 text-green-900 hover:bg-green-300'
+                ? 'bg-blue-700 text-white shadow'
+                : 'bg-blue-200 text-blue-900 hover:bg-blue-300'
             }`}
           >
             {tab.label}

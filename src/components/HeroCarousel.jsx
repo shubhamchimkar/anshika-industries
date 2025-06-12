@@ -16,7 +16,7 @@ const HeroCarousel = () => {
     {
       image: banner2,
       title: 'Strapping Rolls Supplier',
-      description: 'Virgin, Next Virgin & Ghatha Patti rolls in 8mm–12mm, up to 2000m.',
+      description: 'Virgin, Next Virgin & Ghatha Patti rolls in 8mm–12mm, 800 meters to 2000 meters.',
     },
   ];
 
@@ -34,7 +34,7 @@ const HeroCarousel = () => {
   }, []);
 
   return (
-    <section className="relative overflow-hidden min-h-[80vh] md:h-screen" id="home">
+    <section className="relative overflow-hidden min-h-[80vh] md:h-screen font-mont" id="home">
       <AnimatePresence mode="wait">
         <motion.div
           key={index}
@@ -45,7 +45,7 @@ const HeroCarousel = () => {
           transition={{ duration: 0.8 }}
         >
           {/* Left - Text */}
-          <div className="w-full md:w-1/2 bg-green-700 text-white flex flex-col justify-center items-start px-6 md:px-12 py-12">
+          <div className="w-full md:w-1/2 bg-blue-700 border-r-2 text-white flex flex-col justify-center items-start px-6 md:px-12 py-12">
             <motion.h1
               className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-black bg-opacity-30 px-4 py-2 rounded"
               initial={{ opacity: 0, y: 20 }}

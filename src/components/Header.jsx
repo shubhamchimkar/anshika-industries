@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 overflow-hidden">
+    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 overflow-hidden font-mont">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo with animation and scroll to Home */}
@@ -23,7 +23,7 @@ const Header = () => {
             <motion.img
               src={logo}
               alt="Anshika Logo"
-              className="h-[70px] w-auto object-contain"
+              className="h-[75px] w-auto object-contain"
               animate={{ scale: [1, 1.1, 1] }}
               transition={{ duration: 1.2, ease: 'easeInOut' }}
             />

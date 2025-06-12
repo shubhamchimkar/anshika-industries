@@ -14,7 +14,7 @@ const CheckIcon = () => (
 
 const About = () => {
   return (
-    <section id="about" className="py-20 max-w-7xl mx-auto px-6">
+    <section id="about" className="py-20 max-w-7xl mx-auto px-6 font-mont">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
         {/* Left - Logo Animation */}
         <motion.div
@@ -36,7 +36,7 @@ const About = () => {
           viewport={{ once: true }}
         >
           <motion.span
-            className="inline-block bg-green-700 text-white text-sm font-semibold px-4 py-1 rounded-full mb-4"
+            className="inline-block bg-blue-700 text-white text-sm font-semibold px-4 py-1 rounded-full mb-4"
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.3 }}
@@ -66,7 +66,7 @@ const About = () => {
           </motion.p>
 
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 gap-4 text-green-800 text-base font-medium"
+            className="grid grid-cols-1 md:grid-cols-2 gap-4 text-blue-800 text-base font-medium"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}

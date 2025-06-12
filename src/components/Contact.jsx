@@ -38,7 +38,7 @@ const Contact = () => {
       >
         <motion.button
           whileTap={{ scale: 0.95 }}
-          className="bg-green-700 text-white px-5 py-2 rounded-full font-semibold mb-4"
+          className="bg-blue-700 text-white px-5 py-2 rounded-full font-semibold mb-4"
         >
           GET IN TOUCH
         </motion.button>
@@ -52,7 +52,7 @@ const Contact = () => {
       {/* Alert */}
       {submitted && (
         <motion.div
-          className="max-w-xl mx-auto mb-6 p-4 bg-green-100 text-green-800 rounded-md shadow"
+          className="max-w-xl mx-auto mb-6 p-4 bg-blue-100 text-blue-800 rounded-md shadow"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
@@ -79,7 +79,7 @@ const Contact = () => {
           name="name"
           placeholder="Your Name"
           required
-          className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
         />
         <motion.input
           whileFocus={{ scale: 1.02 }}
@@ -87,7 +87,7 @@ const Contact = () => {
           name="email"
           placeholder="Enter Your Email"
           required
-          className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
         />
         <motion.textarea
           whileFocus={{ scale: 1.02 }}
@@ -95,14 +95,14 @@ const Contact = () => {
           placeholder="Your Message"
           required
           rows="5"
-          className="w-full border border-gray-300 rounded-lg px-4 py-3 resize-none focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
         ></motion.textarea>
 
         <motion.button
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
           type="submit"
-          className="w-full bg-green-700 text-white font-semibold py-3 rounded-full hover:bg-green-800 transition"
+          className="w-full bg-blue-700 text-white font-semibold py-3 rounded-full hover:bg-blue-800 transition"
         >
           Submit Now
         </motion.button>
